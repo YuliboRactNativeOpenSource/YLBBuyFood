@@ -18,7 +18,7 @@ class RNHighScores extends React.Component {
 		<Text style={styles.scores}>helloworldhelloworldhelloworldhelloworldhelloworld</Text>
     <TouchableOpacity
                onPress={()=>RNModules.RNOpenOneVC('测试')}>
-                   <Text>返回上一页!</Text>
+                   <Text style={styles.highScoresTitle}>返回上一页!</Text>
             </TouchableOpacity> 
       </View>
     );
