@@ -1,5 +1,5 @@
 # YLBBuyFood
-RN和iOS混编
+React Native和iOS混编
 
 ## 功能
 1、原生页面跳转react native页面  
