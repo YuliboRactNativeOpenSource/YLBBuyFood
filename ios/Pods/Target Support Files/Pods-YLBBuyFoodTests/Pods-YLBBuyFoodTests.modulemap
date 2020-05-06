@@ -1,0 +1,6 @@
+framework module Pods_YLBBuyFoodTests {
+  umbrella header "Pods-YLBBuyFoodTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
