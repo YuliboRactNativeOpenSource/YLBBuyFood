@@ -21,6 +21,7 @@
 		BE426B8024605619001D9FF1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE426B7F24605619001D9FF1 /* SecondViewController.m */; };
 		BE426B9224605E0A001D9FF1 /* NSObject+XKController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE426B9024605E0A001D9FF1 /* NSObject+XKController.m */; };
 		BEBC948324613CD600289F07 /* bundle in Resources */ = {isa = PBXBuildFile; fileRef = BEBC948224613CD600289F07 /* bundle */; };
+		BEC4A3042463F37F0064D7CD /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4A3032463F37F0064D7CD /* CalendarManager.m */; };
 		DDFA8225FF4D446E99BB660D /* Pods_YLBBuyFood_YLBBuyFoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622733EA75E8417640448197 /* Pods_YLBBuyFood_YLBBuyFoodUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		BE426B9024605E0A001D9FF1 /* NSObject+XKController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XKController.m"; sourceTree = "<group>"; };
 		BE426B9124605E0A001D9FF1 /* NSObject+XKController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XKController.h"; sourceTree = "<group>"; };
 		BEBC948224613CD600289F07 /* bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bundle; sourceTree = SOURCE_ROOT; };
+		BEC4A3022463F37F0064D7CD /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
+		BEC4A3032463F37F0064D7CD /* CalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
 		E0435814491678881C64B532 /* Pods-YLBBuyFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBBuyFoodTests.release.xcconfig"; path = "Target Support Files/Pods-YLBBuyFoodTests/Pods-YLBBuyFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,7 @@
 		BE426B3824600D5F001D9FF1 /* YLBBuyFood */ = {
 			isa = PBXGroup;
 			children = (
+				BEC4A3012463F36F0064D7CD /* Native */,
 				BEBC948224613CD600289F07 /* bundle */,
 				BE426B8F24605E0A001D9FF1 /* Base */,
 				BE426B3924600D5F001D9FF1 /* AppDelegate.h */,
@@ -196,6 +200,15 @@
 				BE426B9124605E0A001D9FF1 /* NSObject+XKController.h */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		BEC4A3012463F36F0064D7CD /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				BEC4A3022463F37F0064D7CD /* CalendarManager.h */,
+				BEC4A3032463F37F0064D7CD /* CalendarManager.m */,
+			);
+			path = Native;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +452,7 @@
 			files = (
 				BE426B8024605619001D9FF1 /* SecondViewController.m in Sources */,
 				BE426B4124600D5F001D9FF1 /* ViewController.m in Sources */,
+				BEC4A3042463F37F0064D7CD /* CalendarManager.m in Sources */,
 				BE426B7024602099001D9FF1 /* RCTModules.m in Sources */,
 				BE426B3B24600D5F001D9FF1 /* AppDelegate.m in Sources */,
 				BE426B9224605E0A001D9FF1 /* NSObject+XKController.m in Sources */,
